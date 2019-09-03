@@ -1,0 +1,6 @@
+2019-08-26 16:56:58:   <-- POST /api/user/login
+2019-08-26 16:56:59: RowDataPacket { username: 'bei', realname: 'allen' }
+2019-08-26 16:57:07:   xxx POST /api/user/login 500 8,235ms -
+2019-08-26 16:57:54:   <-- POST /api/user/login
+2019-08-26 16:57:54: RowDataPacket { username: 'bei', realname: 'allen' }
+2019-08-26 16:58:10:   xxx POST /api/user/login 500 15s -

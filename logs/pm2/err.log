@@ -1,0 +1,78 @@
+2019-08-26 16:57:07: server error TypeError: Cannot set property name of  which has only a getter
+2019-08-26 16:57:07:     at defaultErrorHanlder (F:\WebProject\private\node\blog-koa2\node_modules\_koa-generic-session@2.0.1@koa-generic-session\lib\session.js:523:12)
+2019-08-26 16:57:07:     at F:\WebProject\private\node\blog-koa2\node_modules\_koa-generic-session@2.0.1@koa-generic-session\lib\session.js:193:9
+2019-08-26 16:57:07:     at Generator.throw (<anonymous>)
+2019-08-26 16:57:07:     at step (F:\WebProject\private\node\blog-koa2\node_modules\_koa-generic-session@2.0.1@koa-generic-session\lib\session.js:3:191)
+2019-08-26 16:57:07:     at F:\WebProject\private\node\blog-koa2\node_modules\_koa-generic-session@2.0.1@koa-generic-session\lib\session.js:3:402
+2019-08-26 16:57:07:     at process._tickCallback (internal/process/next_tick.js:68:7) { request:
+2019-08-26 16:57:07:    { method: 'POST',
+2019-08-26 16:57:07:      url: '/api/user/login',
+2019-08-26 16:57:07:      header:
+2019-08-26 16:57:07:       { host: 'localhost:6060',
+2019-08-26 16:57:07:         connection: 'keep-alive',
+2019-08-26 16:57:07:         'content-length': '38',
+2019-08-26 16:57:07:         'sec-fetch-mode': 'cors',
+2019-08-26 16:57:07:         'cache-control': 'no-cache',
+2019-08-26 16:57:07:         'user-agent':
+2019-08-26 16:57:07:          'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+2019-08-26 16:57:07:         'postman-token': '0f3bada3-ef33-ccba-5d61-8b12e3840dfe',
+2019-08-26 16:57:07:         'content-type': 'application/json',
+2019-08-26 16:57:07:         accept: '*/*',
+2019-08-26 16:57:07:         origin: 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+2019-08-26 16:57:07:         'sec-fetch-site': 'cross-site',
+2019-08-26 16:57:07:         'accept-encoding': 'gzip, deflate, br',
+2019-08-26 16:57:07:         'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+2019-08-26 16:57:07:   response:
+2019-08-26 16:57:07:    { status: 200,
+2019-08-26 16:57:07:      message: 'OK',
+2019-08-26 16:57:07:      header:
+2019-08-26 16:57:07:       [Object: null prototype] {
+2019-08-26 16:57:07:         vary: 'Origin',
+2019-08-26 16:57:07:         'access-control-allow-origin': 'http://localhost:4444',
+2019-08-26 16:57:07:         'access-control-allow-credentials': 'true',
+2019-08-26 16:57:07:         'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+2019-08-26 16:57:07:         'content-type': 'application/json; charset=utf-8' } },
+2019-08-26 16:57:07:   app: { subdomainOffset: 2, proxy: false, env: 'production' },
+2019-08-26 16:57:07:   originalUrl: '/api/user/login',
+2019-08-26 16:57:07:   req: '<original node req>',
+2019-08-26 16:57:07:   res: '<original node res>',
+2019-08-26 16:57:07:   socket: '<original node socket>' }
+2019-08-26 16:58:10: server error TypeError: Cannot set property name of  which has only a getter
+2019-08-26 16:58:10:     at defaultErrorHanlder (F:\WebProject\private\node\blog-koa2\node_modules\_koa-generic-session@2.0.1@koa-generic-session\lib\session.js:523:12)
+2019-08-26 16:58:10:     at F:\WebProject\private\node\blog-koa2\node_modules\_koa-generic-session@2.0.1@koa-generic-session\lib\session.js:193:9
+2019-08-26 16:58:10:     at Generator.throw (<anonymous>)
+2019-08-26 16:58:10:     at step (F:\WebProject\private\node\blog-koa2\node_modules\_koa-generic-session@2.0.1@koa-generic-session\lib\session.js:3:191)
+2019-08-26 16:58:10:     at F:\WebProject\private\node\blog-koa2\node_modules\_koa-generic-session@2.0.1@koa-generic-session\lib\session.js:3:402
+2019-08-26 16:58:10:     at process._tickCallback (internal/process/next_tick.js:68:7) { request:
+2019-08-26 16:58:10:    { method: 'POST',
+2019-08-26 16:58:10:      url: '/api/user/login',
+2019-08-26 16:58:10:      header:
+2019-08-26 16:58:10:       { host: 'localhost:6060',
+2019-08-26 16:58:10:         connection: 'keep-alive',
+2019-08-26 16:58:10:         'content-length': '38',
+2019-08-26 16:58:10:         'sec-fetch-mode': 'cors',
+2019-08-26 16:58:10:         'cache-control': 'no-cache',
+2019-08-26 16:58:10:         'user-agent':
+2019-08-26 16:58:10:          'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+2019-08-26 16:58:10:         'postman-token': '9af8e4fe-4ba6-d144-aa86-5e5024ee8ea6',
+2019-08-26 16:58:10:         'content-type': 'application/json',
+2019-08-26 16:58:10:         accept: '*/*',
+2019-08-26 16:58:10:         origin: 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+2019-08-26 16:58:10:         'sec-fetch-site': 'cross-site',
+2019-08-26 16:58:10:         'accept-encoding': 'gzip, deflate, br',
+2019-08-26 16:58:10:         'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+2019-08-26 16:58:10:   response:
+2019-08-26 16:58:10:    { status: 200,
+2019-08-26 16:58:10:      message: 'OK',
+2019-08-26 16:58:10:      header:
+2019-08-26 16:58:10:       [Object: null prototype] {
+2019-08-26 16:58:10:         vary: 'Origin',
+2019-08-26 16:58:10:         'access-control-allow-origin': 'http://localhost:4444',
+2019-08-26 16:58:10:         'access-control-allow-credentials': 'true',
+2019-08-26 16:58:10:         'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+2019-08-26 16:58:10:         'content-type': 'application/json; charset=utf-8' } },
+2019-08-26 16:58:10:   app: { subdomainOffset: 2, proxy: false, env: 'production' },
+2019-08-26 16:58:10:   originalUrl: '/api/user/login',
+2019-08-26 16:58:10:   req: '<original node req>',
+2019-08-26 16:58:10:   res: '<original node res>',
+2019-08-26 16:58:10:   socket: '<original node socket>' }
